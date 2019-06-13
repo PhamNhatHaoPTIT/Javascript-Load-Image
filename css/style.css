@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container, #image-container {
+    width: 700px;
+    margin: auto;
+}
+
+#image-container {
+    margin-top: 80px;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#btn-choose-file {
+    float: left;
+}
+
+#btn-clear {
+    float: right;
+}
+
+#btn-choose-file, #btn-clear {
+    font-size: 20px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-view {
+    width: 200px;
+    height: 200px;
+    margin: 12px 13px;
+    border: 1px solid red;
+}
